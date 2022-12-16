@@ -1,0 +1,279 @@
+/*To avoid plagiarism, references have been provided in the relevant sections.*/
+
+/*https://github.com/ethanw8?tab=repositories*/ /*Git commit was taking too long, which means that I have set up a link for the github repository*/
+*, :after, :before {
+    -webkit-box-sizing: border-box; /*Reference here was luca.restaurant*/
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+img {
+    border: 0;
+}
+
+.lazyload--fade {
+    -webkit-transition: opacity .5s; /*Reference here was luca.restaurant*/
+    -o-transition: opacity .5s; /*Reference here was luca.restaurant*/
+    transition: opacity .5s; /*Reference here was luca.restaurant*/
+}
+
+.lazyloaded {
+    opacity: 1; /*Reference here was luca.restaurant*/
+}
+
+button{
+    -webkit-appearance: button; /*Reference here was luca.restaurant*/
+    cursor: pointer;
+    appearance: none;
+    border: 0;
+    background: 0 0;
+
+}
+
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%; /*Reference here was luca.restaurant*/
+    -webkit-text-size-adjust: 100%; /*Reference here was luca.restaurant*/
+}
+
+:root {
+    --wp--preset--font-size--normal: 16px; /*Reference here was luca.restaurant*/
+    --wp--preset--font-size--huge: 42px; /*Reference here was luca.restaurant*/
+}
+
+body {
+    color: #000;
+    font: 100%/1 Filosofia,Georgia,serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-numeric: oldstyle-nums;
+    margin: 0;
+}
+
+.restaurant {
+    display: block;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block; /*Reference here was luca.restaurant*/
+}
+
+.section-restaurant {
+    position: relative;
+}
+
+.restaurant {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical; /*Reference here was luca.restaurant*/
+    -webkit-box-direction: normal; /*Reference here was luca.restaurant*/
+    -ms-flex-direction: column; /*Reference here was luca.restaurant*/
+    flex-direction: column;
+}
+
+.section-container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.section-container {
+    -webkit-box-orient: vertical; /*Reference here was luca.restaurant*/
+    -webkit-box-direction: reverse; /*Reference here was luca.restaurant*/
+    -ms-flex-direction: column-reverse; /*Reference here was luca.restaurant*/
+    flex-direction: column-reverse;
+}
+
+.padding-section{
+    padding: 4.5rem 1.5rem;
+}
+
+.section--center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical; /*Reference here was luca.restaurant*/
+    -webkit-box-direction: normal; /*Reference here was luca.restaurant*/
+    -ms-flex-direction: column; /*Reference here was luca.restaurant*/
+    flex-direction: column;
+    -webkit-box-align: center; /*Reference here was luca.restaurant*/
+    -ms-flex-align: center; /*Reference here was luca.restaurant*/
+    align-items: center;
+    -webkit-box-pack: center; /*Reference here was luca.restaurant*/
+    -ms-flex-pack: center; /*Reference here was luca.restaurant*/
+    justify-content: center; /*Reference here was luca.restaurant*/
+}
+
+.section-image, .section-text {
+    width: 100%;
+}
+
+.section-wrapper {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 50rem;
+}
+
+.restaurant-section {
+    margin: 0 auto 4rem;
+}
+
+.restaurant-section {
+    margin-bottom: 2rem;
+}
+
+.restaurant-heading {
+    width: 15em;
+}
+
+
+.subheading img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.luca-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.luca-background {
+    position: fixed;
+    background: url(../Coursework2/coursework2-images/luca-background-image.jpg) no-repeat 50% 50%;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.luca-background--red {
+    background-color: #efa495;
+}
+
+
+
+.section-image__single {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    font-family: "object-fit: cover;";
+}
+
+.background-clip {
+    -webkit-clip-path: inset(0 0 0 0);
+    clip-path: inset(0 0 0 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.padding-section{
+    padding: 4.5rem 1.5rem;
+}
+
+
+
+
+
+
+.column{
+    box-sizing: border-box;
+
+}
+
+.column{
+    float: left;
+    width: 50%;
+
+}
+
+.row:after{
+    display: table;
+    clear: both;
+    content: "";
+
+}
+
+.luca-background--red{
+    background: #efa495;
+}
+
+
+.luca-background {
+    position: fixed;
+    background: url(../coursework2-images/luca-background-image.jpg) no-repeat 50% 50%;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: #efa495;
+}
+
+
+.button-outline {
+    border-color: #000;
+}
+
+.button-block .button-outline, .button-block .button-solid {
+    margin: 0 0.75rem 1.5rem;
+}
+
+.button-block .button-outline, .button-block .button-solid {
+    width: 100%;
+    display: block;
+    margin: 0 0 1.5rem;
+}
+
+.button-block .button-outline:last-child, .button-block .button-solid:last-child {
+    margin: 0;
+}
+
+#restaurant-interior{
+    width: 1500px
+}
+
+#restaurant{
+    height: 1000px;
+}
+
+.button-outline, .button-solid {
+    display: inline-block;
+    padding: 1rem 1rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border: 1px solid transparent;
+    -webkit-transition: border-color 350ms,color 350ms,background-color 350ms; /*Reference here was luca.restaurant*/
+    -o-transition: border-color 350ms,color 350ms,background-color 350ms; /*Reference here was luca.restaurant*/
+    transition: border-color 350ms,color 350ms,background-color 350ms; /*Reference here was luca.restaurant*/
+    cursor: pointer;
+}
+
